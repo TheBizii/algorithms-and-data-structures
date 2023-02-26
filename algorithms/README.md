@@ -7,3 +7,5 @@ Algorithms that fall under this category are used for computing the greatest com
 
 - [Euclid's algorithm](https://github.com/TheBizii/algorithms-and-data-structures/tree/main/algorithms/greatest-common-divisor/euclidean) (also known as Euclidean algorithm)
 	- Available in: Rust
+- [Extended Euclid's algorithm](https://github.com/TheBizii/algorithms-and-data-structures/tree/main/algorithms/greatest-common-divisor/extended-euclidean)
+	- Available in: Rust
