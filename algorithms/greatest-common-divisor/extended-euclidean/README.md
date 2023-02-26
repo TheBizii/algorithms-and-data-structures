@@ -14,8 +14,11 @@ Greatest common divisor is calculated the same way as with the original version 
 As mentioned earlier, the explanation and implementations are available in this repository. Here's a quick way to find the greatest common divisor.
 
 [1] 23 = 17 * (1) + 6
+
 [2] 17 = 6 * (2) + 5
+
 [3] 6 = 5 * (1) + 1
+
 [4] 5 = 1 * (5) + 0
 
 The greatest common divisor of numbers **a** and **b** is 1.
@@ -25,21 +28,36 @@ The greatest common divisor of numbers **a** and **b** is 1.
 After finding the greatest common divisor, it's time rewrite the above equations in the following way:
 
 1. Take the equation [3] and express it in the following form.
-	1 = 6 - 5 * (1)
+
+1 = 6 - 5 * (1)
+
 2. Rewrite the above expression by switching the sign in front of number 5.
-	1 = 6 + 5 * (-1)
+
+1 = 6 + 5 * (-1)
+
 3. Take the equation [2] and replace the number 5 in the expression above.
-	1 = 6 + (17 - 6 * (2)) * (-1)
+
+1 = 6 + (17 - 6 * (2)) * (-1)
+
 4. Simplify the expression.
-	1 = 6 + (17 + 6 * (-2)) * (-1)
-	= 6 + 17 * (-1) + 6 * (2)
-	= 6 * (3) + 17 * (-1)
+
+1 = 6 + (17 + 6 * (-2)) * (-1)
+
+= 6 + 17 * (-1) + 6 * (2)
+
+= 6 * (3) + 17 * (-1)
+
 5. Take the equation [1] and replace the number 6 in the expression above.
-	1 = (23 - 17 * (1)) * (3) + 17 * (-1)
+
+1 = (23 - 17 * (1)) * (3) + 17 * (-1)
+
 6. Simplify the expression.
-	1 = (23 + 17 * (-1)) * (3) + 17 * (-1)
-	= 23 * (3) + 17 * (-3) + 17 * (-1)
-	= 23 * (3) + 17 * (-4)
+
+1 = (23 + 17 * (-1)) * (3) + 17 * (-1)
+
+= 23 * (3) + 17 * (-3) + 17 * (-1)
+
+= 23 * (3) + 17 * (-4)
 
 ### Conclusion
 
