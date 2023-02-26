@@ -21,7 +21,7 @@ pub fn extended_euclidean(a: i32, b: i32) -> (i32, i32, i32) {
 // This is the iterative version of the extended Euclidean algorithm. It is especially useful when dealing with very large numbers,
 // because we're avoiding recursion, which could lead to stack overflow.
 pub fn extended_euclidean_iterative(a: i32, b: i32) -> (i32, i32, i32) {
-	let (mut old_r, mut r) = (a, b);
+    let (mut old_r, mut r) = (a, b);
     let (mut old_s, mut s) = (1, 0);
     let (mut old_t, mut t) = (0, 1);
 
@@ -31,12 +31,12 @@ pub fn extended_euclidean_iterative(a: i32, b: i32) -> (i32, i32, i32) {
         let temp_r = old_r;
         old_r = r;
         r = temp_r - quotient * r;
-        
-		let temp_s = old_s;
+
+        let temp_s = old_s;
         old_s = s;
         s = temp_s - quotient * s;
-        
-		let temp_t = old_t;
+
+        let temp_t = old_t;
         old_t = t;
         t = temp_t - quotient * t;
     }
