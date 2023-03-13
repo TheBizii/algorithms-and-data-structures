@@ -9,3 +9,10 @@ Algorithms that fall under this category are used for computing the greatest com
 	- Available in: Rust
 - [Extended Euclid's algorithm](https://github.com/TheBizii/algorithms-and-data-structures/tree/main/algorithms/greatest-common-divisor/extended-euclidean)
 	- Available in: Rust
+
+## Finding prime numbers
+
+Algorithms that fall under this category are used for finding prime numbers up to a given limit.
+
+- [Sieve of Eratosthenes](https://github.com/TheBizii/algorithms-and-data-structures/tree/main/algorithms/finding-primes/sieve-of-eratosthenes)
+	- Available in: Rust
